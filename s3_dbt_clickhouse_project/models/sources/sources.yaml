@@ -1,0 +1,8 @@
+sources:
+  - name: staging
+    database: de_pet_project_db
+    schema: staging 
+    tables:
+      - name: listings
+      - name: bookings
+      - name: hosts

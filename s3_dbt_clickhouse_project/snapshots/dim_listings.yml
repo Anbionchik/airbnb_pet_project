@@ -1,0 +1,10 @@
+snapshots:
+  - name: dim_listings
+    relation: ref('listings')
+    config:
+      database: de_pet_project_db
+      schema: gold
+      strategy: timestamp
+      unique_key: listing_id
+      updated_at: listings_created_at
+      dbt_valid_to_current: "TO_DATE('9999-12-31', 'YYYY-MM-DD')"
