@@ -343,7 +343,7 @@ dbt test
 
 ## Author
 
-**Andrey Khlopkov*
+**Andrey Khlopkov**
 
 Data Analyst / Data Engineer
 
